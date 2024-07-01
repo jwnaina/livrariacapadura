@@ -1,0 +1,109 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body{
+  color: #F4F0E8;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: #F4F0E8;
+  background-position: center;
+  background-size: cover;
+  padding-top: 35px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+nav{
+  padding: 10px 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2E3742;
+}
+.logo a{
+  font-size: 20px;
+  text-decoration: none;
+}
+span{
+  color: #F4F0E8;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  transition: 0.5s;
+}
+nav ul li a:hover{
+  color: #536279;
+}
+.login{
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+}
+.btn{
+  background: #F4F0E8;
+  border-radius: 6px;
+  padding: 9px 25px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 18px;
+  color: #2E3742;
+}
+
+.menu-buttons  {
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    margin-left: 70px;
+}
+
+.content{
+  max-width: 600px;
+  margin-left: 60px;
+}
+.content h2{
+  font-size: 60px
+}
+.content p{
+  margin-top: 10px;
+  line-height: 25px;
+}
+a{
+  color: #F4F0E8;
+}
+.link {
+  margin-top: 30px;
+}
+.leia{
+  color: #2E3742;
+  text-decoration: none;
+  background: #F4F0E8;
+  padding: 9px 25px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.link .leia:hover{
+  background: transparent;
+  border: 1px solid #F4F0E8;
+  color: #F4F0E8;
+}
+
+.banner {
+    padding: 50px 10px 50px 55px;
+    background-color: #2E3742;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
